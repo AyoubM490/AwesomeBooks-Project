@@ -1,7 +1,5 @@
 ![Screenshot from 2022-02-07 16-04-13](https://user-images.githubusercontent.com/95053734/152814165-3128bb67-47e0-4310-b1dc-7f92d55262ca.png)
 
-
-
 # Awesome Books Project
 
 In this project, I built a simple website that allows users to add/remove books from a library list of books.
@@ -20,7 +18,6 @@ In this project, I built a simple website that allows users to add/remove books 
 ## Getting Started
 
 Download and click `index.html` if you really want to run this page.
-
 
 
 ## Authors
