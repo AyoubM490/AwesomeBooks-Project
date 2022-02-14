@@ -5,7 +5,7 @@ const addBtn = document.getElementById('addBtn');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 
-function addBook(e) {
+const addBook = (e) => {
   e.preventDefault();
 
   // update class
@@ -60,7 +60,7 @@ function addBook(e) {
   li.appendChild(button);
 
   ul.appendChild(li);
-}
+};
 
 addBtn.addEventListener('click', addBook);
 
