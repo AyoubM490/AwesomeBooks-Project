@@ -1,5 +1,5 @@
 import { Book } from "../modules/Book.js";
-import { luxon } from "../modules/luxon.js";
+import { DateTime } from "../modules/luxon.js";
 const addBtn = document.getElementById("addBtn");
 const title = document.getElementById("title");
 const author = document.getElementById("author");
@@ -82,6 +82,4 @@ navAnchs.forEach((a) => {
 });
 
 const date = document.querySelector(".date");
-date.innerHTML = `${luxon.DateTime.now().toLocaleString(
-  luxon.DateTime.DATETIME_FULL
-)}`;
+date.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_FULL)}`;

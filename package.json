@@ -9,5 +9,26 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "dependencies": {
+    "luxon": "^2.3.0"
+  },
+  "name": "awesomebooks-project",
+  "description": "![Screenshot from 2022-02-07 16-04-13](https://user-images.githubusercontent.com/95053734/152814165-3128bb67-47e0-4310-b1dc-7f92d55262ca.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoubMs/AwesomeBooks-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyoubMs/AwesomeBooks-Project/issues"
+  },
+  "homepage": "https://github.com/AyoubMs/AwesomeBooks-Project#readme"
 }
