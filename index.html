@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Awesome Books</title>
+  </head>
+
+  <body class="container">
+    <nav
+      class="d-flex navbar border border-1 border-dark py-0 mb-4 mt-2"
+      id="navbar"
+    >
+      <a href="#" class="my-0 text-dark">Awesome Books</a>
+      <ul class="d-flex ms-auto lists my-0">
+        <li><a href="#list" class="mx-1">List |</a></li>
+        <li><a href="#addNew" class="mx-1">Add New |</a></li>
+        <li><a href="#contact" class="mx-1">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date col-7 ms-auto mb-3 text-end"></div>
+    <section class="d-none" id="list">
+      <h1 class="text-center">All Awesome books</h1>
+      <ul class="list list-group" id="book-list"></ul>
+    </section>
+    <section id="addNew">
+      <form
+        action="/"
+        class="form-group d-flex flex-column justify-content-center m-auto col-4 col-md-4"
+      >
+        <h2 class="text-center">Add a new book</h2>
+        <input
+          type="text"
+          placeholder="Title"
+          id="title"
+          class="m-auto form-control mb-2"
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          id="author"
+          class="m-auto mb-2 form-control"
+        />
+        <button type="submit" id="addBtn" class="ms-auto">Add</button>
+      </form>
+    </section>
+    <section class="d-none" id="contact">
+      <h2>Contact information</h2>
+      <p>Do have any questions or you just want to say "Hello"?</p>
+      <p>You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number: 0043586534422</li>
+        <li>Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </section>
+    <footer class="fixed-bottom border border-1 border-dark">
+      <p class="my-0">Copyright</p>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
