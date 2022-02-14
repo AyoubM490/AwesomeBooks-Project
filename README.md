@@ -4,17 +4,21 @@
 
 In this project, I built a simple website that allows users to add/remove books from a library list of books.
 
+
 ## Built With
 
 - HTML, CSS and JS
+
 
 ## Live Demo
 
 [Live Demo Link](https://ayoubms.github.io/awesomebooks_project)
 
+
 ## Getting Started
 
 Download and click `index.html` if you really want to run this page.
+
 
 ## Authors
 
@@ -23,10 +27,12 @@ Download and click `index.html` if you really want to run this page.
 - GitHub: [@damdafayton](https://github.com/damdafayton)
 - LinkedIn: [/in/damdafayton](https://linkedin.com/in/damdafayton)
 
+
 👤 **Author2**
 
 - Github: [@AyoubMs](https://github.com/AyoubMs)
 - LinkedIn: [Ayoub Chahir](https://www.linkedin.com/in/ayoub-chahir/)
+
 
 ## 🤝 Contributing
 
@@ -34,13 +40,16 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
 - Hat tip to all developers.
+
 
 ## 📝 License
 
