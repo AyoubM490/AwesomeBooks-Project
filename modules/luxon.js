@@ -1,3 +1,4 @@
+/* eslint-disable */
 class e extends Error {}
 class r extends e {
   constructor(e) {

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/prefer-default-export
 export class Book {
   constructor(title, author) {
     this.title = title;
@@ -9,11 +10,11 @@ export class Book {
 
   addNewBook() {
     Book.books.push({ title: this.title, author: this.author });
-    this.store.setItem("books", JSON.stringify(Book.books));
+    this.store.setItem('books', JSON.stringify(Book.books));
   }
 
   static removeBook(title) {
     Book.books = Book.books.filter((book) => book.title !== title);
-    store.setItem("books", JSON.stringify(Book.books));
+    this.store.setItem('books', JSON.stringify(Book.books));
   }
 }
